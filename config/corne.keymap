@@ -78,13 +78,13 @@
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
 // | SHFT |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  ESC   |
-// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | CTRL  |
+// | ESC |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | CTRL  |
 //                    | GUI | LWR | SPC |   | ENT | Layer O  | ALT |
 //                           meh on hold    hyper on hold  
                         bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T                    &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &kp LSHFT &kp A &kp S &kp D &kp F &kp G                    &kp H &kp J  &kp K   &kp L   &kp SEMI &kp ESC 
-   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B                    &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp LCTRL
+   &kp ESC &kp Z &kp X &kp C &kp V &kp B                    &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp LCTRL
                   &kp LGUI &mo 1 &kp SPACE   &kp RET &to 0 &kp RALT
                         >;
                 };
